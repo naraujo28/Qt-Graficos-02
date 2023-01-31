@@ -2,6 +2,9 @@
 #define PRINCIPAL_H
 
 #include <QMainWindow>
+#include <QPainter>
+#include <QFileDialog>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Principal; }
@@ -18,11 +21,27 @@ public:
 private slots:
     void on_actionGuardar_triggered();
 
-    void on_pushButton_clicked(bool checked);
+    void on_spinBox_valueChanged(int arg1);
+
+    void on_spinBox_2_valueChanged(int arg1);
+
+    void on_spinBox_3_valueChanged(int arg1);
+
+    void on_actionNuevo_triggered();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::Principal *ui;
-    QPixmap lienzo;
+    QPixmap m_lienzo;
+    QPen pincel;
+    QPainter *painter;
+    int m_nota1;
+    int m_nota2;
+    int m_nota3;
+    int boton;
+    int x = 50;
+    int y = 50;
 
     void dibujar();
 };

@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>img/Save.ico</file>
+        <file>img/documento.png</file>
+        <file>img/guardar-el-archivo.png</file>
+        <file>img/grafico-de-barras.png</file>
+        <file>img/salida.png</file>
     </qresource>
 </RCC>
