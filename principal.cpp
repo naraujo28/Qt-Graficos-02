@@ -153,6 +153,6 @@ void Principal::on_pushButton_clicked()
 
     painter.drawLine(30,y+(400-promedio),500,y+(400-promedio));
     ui->outCuadro->setPixmap(m_lienzo);
-    ui->statusbar->showMessage("El promedio es: " + QString::number(promedio));
+    ui->statusbar->showMessage(tr("El promedio es: ") + QString::number(promedio));
 }
 

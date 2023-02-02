@@ -19,6 +19,10 @@ SOURCES += \
     main.cpp \
     principal.cpp
 
+TRANSLATIONS += \
+    Diagrama_Barras_en.ts \
+    Diagrama_Barras_pr.ts
+
 HEADERS += \
     principal.h
 
@@ -33,4 +37,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     Resources.qrc
 
-DISTFILES +=
+DISTFILES += \
+    Diagrama_Barras_pr.ts

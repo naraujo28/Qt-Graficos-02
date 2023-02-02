@@ -5,6 +5,7 @@
 #include <QPainter>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QTranslator>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Principal; }
@@ -35,11 +36,9 @@ private:
     Ui::Principal *ui;
     QPixmap m_lienzo;
     QPen pincel;
-    QPainter *painter;
     int m_nota1;
     int m_nota2;
     int m_nota3;
-    int boton;
     int x = 50;
     int y = 50;
 

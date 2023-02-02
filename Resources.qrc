@@ -5,5 +5,7 @@
         <file>img/guardar-el-archivo.png</file>
         <file>img/grafico-de-barras.png</file>
         <file>img/salida.png</file>
+        <file>Diagrama_Barras_pr.qm</file>
+        <file>Diagrama_Barras_en.qm</file>
     </qresource>
 </RCC>
